@@ -22,7 +22,8 @@ positional arguments:
   height                height of the grid
 
 optional arguments:
-  -h, --help            show this help message and exit"))
+  -h, --help            show this help message and exit
+"))
   (if (or (loop for arg in *posix-argv*
                 when (or (string-equal "-h" arg)
                          (string-equal "--help" arg))
